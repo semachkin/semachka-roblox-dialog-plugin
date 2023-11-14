@@ -1,6 +1,6 @@
 local selectionService = require(script.selection)
 
-local functions = script.functions
+local util = script.util
 
 local services = {}
 do
@@ -11,8 +11,8 @@ function shared.getService(service)
 	return assert(services[service], `{service} is not a valid service name`)
 end
 
-shared.getInstanceFromFullName = require(functions.getInstanceFromFullName)
-shared.getAbsoluteGuiSize = require(functions.getAbsoluteGuiSize)
-shared.getAbsoluteGuiPosition = require(functions.getAbsoluteGuiPosition)
+shared.getInstanceFromFullName = require(util.getInstanceFromFullName)
+shared.getAbsoluteGuiSize = require(util.getAbsoluteGuiSize)
+shared.getAbsoluteGuiPosition = require(util.getAbsoluteGuiPosition)
 
 return 0
