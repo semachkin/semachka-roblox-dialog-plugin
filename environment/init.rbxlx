@@ -1,0 +1,7 @@
+<roblox version="4">
+	<Item class="Actor">
+		<Properties>
+			<string name="Name">environment</string>
+		</Properties>
+	</Item>
+</roblox>
