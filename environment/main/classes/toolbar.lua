@@ -187,7 +187,11 @@ local toolbar: pluginWindowConstructor = function(plugin, name)
 		end
 		
 		local newDialog: dialog.object = --[[new]] dialog(
-			container, deserialized.markers, deserialized.speechs, deserialized.answers
+			container, 
+			deserialized.markers, 
+			deserialized.speechs, 
+			deserialized.answers,
+			deserialized.firstSpeech
 		)
 		
 		return newDialog
