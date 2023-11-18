@@ -42,7 +42,8 @@ type serializedMarkers = {[string]: marker.serializeVersion}
 export type serializeVersion = {
 	answers: answers,
 	speechs: speechs,
-	markers: serializedMarkers
+	markers: serializedMarkers,
+	firstSpeech: string?
 }
 
 export type object = dialog
