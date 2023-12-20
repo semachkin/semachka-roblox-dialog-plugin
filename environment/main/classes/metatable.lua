@@ -36,4 +36,4 @@ type MT = {
 
 export type object = MT
 
-return 0
+return nil
