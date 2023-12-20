@@ -37,7 +37,8 @@ local answerTagsWhitelist = {
 	speech   = true
 }
 local enterTagsWhitelist = {
-	speech = true
+	speech = true,
+	answer = true
 }
 
 local MARKER_INIT_MODE_SPEECH = 0x0001
