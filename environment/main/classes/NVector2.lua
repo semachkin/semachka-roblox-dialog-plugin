@@ -12,7 +12,7 @@ type NVector2 = {
 	
 	-- methods
 	
-	toVector2: () -> void
+	toVector2: () -> Vector2
 }
 type NVector2Constructor = (
 	x: number,
