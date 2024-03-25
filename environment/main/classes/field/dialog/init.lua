@@ -134,7 +134,7 @@ local dialog: dialogConstructor = function(
 			if type(any) == 'number' then 
 				result ..= any
 			elseif type(any) == 'string' then 
-				result ..= `\`{('%q').format(any)}\``
+				result ..= `\[[{('%q').format(any)}\]]`
 			elseif type(any) == 'table' then 
 				local anyString = tostring(any)
 				result ..= anyString:sub(1,5) == 'table' and serialize(any) or anyString
