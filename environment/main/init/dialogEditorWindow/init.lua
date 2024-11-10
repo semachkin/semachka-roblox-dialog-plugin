@@ -21,7 +21,7 @@ local markersDecryptor: decryptor.object = shared.markersDecryptor
 --- properties ---
 local cellSize = shared.cellSize
 local maxSpeechOutputs = 0xFFFFFF
-local maxAnswerOutputs = 1
+local maxAnswerOutputs = 0xFFFFFF
 local startSpeechColor = Color3.fromHex'81a7ff'
 local startAnswerColor = Color3.fromHex'ffff7b'
 local startSpeechSize  = Vector2.new(8, 2)
